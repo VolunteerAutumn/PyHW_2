@@ -59,4 +59,75 @@ for word in reversed(text):
 
 print(' '.join(txet))
 
-# PART II COMING TOMORROW
+# PART II (!!! IMPORTANT - I did everything as it was easier for me (I'm lazy af))
+# ----1
+nl = map(int, input("Enter the numbers separated with spaces (\" \") > ").split())
+en = 0
+on = 0
+
+for i in nl:
+	if i % 2 == 0:
+		en += 1
+	elif i % 2 != 0:
+		on += 1
+
+print(f"There are {en} even numbers and {on} odd numbers")
+
+# ----2
+nl = list(map(int, input("Enter the numbers separated with spaces (\" \") > ").split()))
+print(f"The biggest one is {max(nl)} and the smallest one is {min(nl)}")
+
+# ----3
+import random as r
+nl = []
+min_pos = 100
+max_neg = -100
+zeros = 0
+for i in range(0, r.randint(8, 15)):
+	nl.append(r.randint(-100, 100))
+print(f"We have a list: {nl}")
+for number in nl:
+	if number < 0:
+		if number > max_neg:
+			max_neg = number
+	elif number > 0:
+		if number < min_pos:
+			min_pos = number
+	elif number == 0:
+		zeros += 1
+print(f"In this list, {min_pos} is the smallest positive number, {max_neg} is the largest negative number.")
+print(f"The list has {zeros} zeros.")
+
+# ----4
+nums = list(map(int, input("Enter all the numbers of the list you want to create > ").split()))
+c = int(input("Enter a coefficient > "))
+filtered_nums = []
+for i in nums:
+    if i >= c:
+        filtered_nums.append(i)
+print(f"The result is: {' '.join(map(str, filtered_nums))}")
+
+# ----5
+kkk = input("Enter the equation (ex. 23+12) > ")
+print(f"Result of {kkk} is {int(eval(kkk))}")
+
+# ----6
+starting_list = list(map(int, input("Enter the numbers of the list (separate with ' ') > ").split()))
+filler_list = []
+result = []
+filler_number_index = 0
+
+for i in starting_list:
+	if i >= 0:
+		filler_list.append(i)
+
+filler_list.sort()
+
+for num in starting_list:
+	if num < 0:
+		result.append(num)
+	else:
+		result.append(filler_list[filler_number_index])
+		filler_number_index += 1
+print(f"Result: {', '.join(map(str, result))}")
+
