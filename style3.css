@@ -1,0 +1,126 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.Header {
+	background-color: #923059;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Footer {
+	background-color: #6e1237;
+	color: white;
+	padding-left: 50px;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.MENUlbl {
+	background-color: #6e1237;
+	color: white;
+	padding-left: 50px;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.main_content {
+	color: white;
+	background-color: #b65c82;
+	margin-left: 13px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 10px;
+    width: 500px;
+}
+
+.menu_content {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	display: inline-flex;
+}
+
+.se1 {
+	color: white;
+	background-color: #db92af;
+	padding-left: 60px;
+	padding-bottom: 80px;
+    padding-top: 13px;
+    font-weight: bold;
+}
+
+.se2 {
+	color: white;
+	background-color: #db92af;
+	padding-left: 60px;
+	padding-bottom: 70px;
+    padding-top: 13px;
+    font-weight: bold;
+	margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.column1 {
+	width: 255px;
+}
+
+.division_1 {
+	width: 255px;
+	background-color: #b65c82;
+	height: 100px;
+}
+
+.division_2 {
+	width: 255px;
+	background-color: #b65c82;
+	height: 150px;
+	margin-top: 15px;
+}
+
+.e1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+}
+
+.e2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+}
+
+.e4 {
+	height: 265px;
+	weight: 127px;
+	color: white;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 13px;
+	padding-top: 30px;
+    padding-right: 40px;
+    padding-left: 60px;
+}
+
+.column3 {
+	width: 127.5px;
+    padding-top: 0px;
+	background-color: #b65c82;
+	margin-left: 13px;
+	height: 265.531px;
+	width: 143.500px;
+}
