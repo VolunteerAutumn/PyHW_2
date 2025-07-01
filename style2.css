@@ -1,0 +1,19 @@
+.List {
+	list-style: none;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.e1, .e2, .e3, .e4, .e5 {
+	background-color: #808080;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.e1:hover, .e2:hover, .e3:hover, .e4:hover, .e5:hover {
+	background-color: #5e5e5e;
+}
